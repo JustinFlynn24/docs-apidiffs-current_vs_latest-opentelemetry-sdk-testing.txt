@@ -1,0 +1,7 @@
+echo "# docs-apidiffs-current_vs_latest-opentelemetry-sdk-testing.txt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JustinFlynn24/docs-apidiffs-current_vs_latest-opentelemetry-sdk-testing.txt.git
+git push -u origin main
